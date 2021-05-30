@@ -11,11 +11,17 @@ fun main(){
     var myArray = arrayOf(1,"a",false,4.5)
     print("${myArray[3]}"+"\n")
     */
-
+    /*
     var string1:String="Android Kotlin"
     var x=13.37f
     var y=3.141432523543
     var z=25
     print("$string1 $x $y $z")
+     */
+
+    var a="12"
+    var b="2"
+    var c:String=(a.toInt()+b.toInt()).toString()
+    print(c)
 
 }
