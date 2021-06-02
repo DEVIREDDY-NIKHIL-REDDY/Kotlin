@@ -18,10 +18,18 @@ fun main(){
     var z=25
     print("$string1 $x $y $z")
      */
-
+    /*
     var a="12"
     var b="2"
     var c:String=(a.toInt()+b.toInt()).toString()
     print(c)
-
+    */
+    var sum:Int=0
+    var i:String
+    do{
+        print("Enter a Number: ")
+        i= readLine()!!
+        sum+=i.toInt()
+    }while (i!="0")
+    print(sum)
 }
