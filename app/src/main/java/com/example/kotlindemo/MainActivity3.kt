@@ -25,6 +25,7 @@ class MainActivity3 : AppCompatActivity() {
             }
 
             result.setText(str)
+            input.setText("")
         })
     }
 
